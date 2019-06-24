@@ -12,7 +12,7 @@ def load_library(path)
     new_hashes["get_meaning"][emos[1]] = trans
     new_hashes["get_emoticon"][emos[0]] = emos[1]
   end
-  response
+  new_hashes
 end
 end
 
