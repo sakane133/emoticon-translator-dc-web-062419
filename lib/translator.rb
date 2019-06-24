@@ -9,7 +9,11 @@ def load_library(path)
   new_hashes = {'get_emoticon' => {},
   'get_meaning' => {}}
   emoticons.each do |key, value|
-    
+    response["get_meaning"][emos[1]] = trans
+    response["get_emoticon"][emos[0]] = emos[1]
+  end
+  response
+end
 end
 
 def get_japanese_emoticon
