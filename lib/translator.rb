@@ -6,8 +6,8 @@ require 'pry'
 def load_library(path)
   # code goes here
   emoticons = YAML.load_file(path)
-  "get_emoticon" = {}
-  "get_meaning" = {}
+  new_hashes = {"get_emoticon" = {},
+  "get_meaning" = {}}
 end
 
 def get_japanese_emoticon
