@@ -24,6 +24,7 @@ if lib["get_meaning"][emoticon] == nil
    "Sorry, that emoticon was not found"
 else 
   return lib["get_meaning"][emoticon]
+  binding.pry
 end
 end
 
