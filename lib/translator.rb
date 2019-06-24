@@ -31,7 +31,6 @@ else
 #     "Sorry, that emoticon was not found"
 end
 end
-end
 
 def get_english_meaning(yaml_file, emot)
   # code goes here
