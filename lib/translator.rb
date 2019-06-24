@@ -8,7 +8,8 @@ def load_library(path)
   emoticons = YAML.load_file(path)
   new_hashes = {'get_emoticon' => {},
   'get_meaning' => {}}
-  emoticons.each do ||
+  emoticons.each do |key, value|
+    
 end
 
 def get_japanese_emoticon
