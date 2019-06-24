@@ -29,5 +29,6 @@ end
 
 def get_english_meaning(yaml_file, emot)
   # code goes here
-  library = load_library(yaml_file)
+  lib = load_library(yaml_file)
+  
 end
