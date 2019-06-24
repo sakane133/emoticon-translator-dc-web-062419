@@ -30,5 +30,6 @@ end
 def get_english_meaning(yaml_file, emot)
   # code goes here
   lib = load_library(yaml_file)
+  if lib["get_meaning"][emot]
   
 end
