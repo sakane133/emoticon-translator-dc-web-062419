@@ -9,6 +9,7 @@ def load_library(path)
   new_hashes = {'get_emoticon' => {},
   'get_meaning' => {}}
   emoticons.each do |key, value|
+    binding.pry
     new_hashes["get_meaning"][value[1]] = key
     new_hashes["get_emoticon"][value[0]] = value[1]
   end
