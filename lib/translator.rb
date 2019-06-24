@@ -22,13 +22,8 @@ def get_japanese_emoticon(yaml_file, emoticon)
   lib = load_library(yaml_file)
 if lib["get_emoticon"][emoticon] == nil 
   "Sorry, that emoticon was not found"
-  
 else 
   return lib["get_emoticon"][emoticon]
-# if lib["get_emoticon"].include?(emoticon) 
-#     lib["get_emoticon"][emoticon]
-#   else
-#     "Sorry, that emoticon was not found"
 end
 end
 
